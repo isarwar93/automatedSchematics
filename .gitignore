@@ -13,6 +13,7 @@
 *-bak*
 *~
 ~*
+*.erc.rpt
 _autosave-*
 \#auto_saved_files\#
 *.tmp
@@ -41,3 +42,15 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+# Generated schematics and exports
+output/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+local/
+.agent/
+*.rpt
